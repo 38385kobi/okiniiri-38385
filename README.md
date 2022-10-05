@@ -1,24 +1,42 @@
-# README
+# アプリケーション名
+わたしのお気に入り
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# アプリケーション概要
+ハンドメイドの作品を販売することができる
 
-Things you may want to cover:
+# URL
+https://okiniiri-38385.herokuapp.com/
 
-* Ruby version
+# テスト用アカウント
+・Basic認証パスワード：38385
 
-* System dependencies
+・Basic認証ID：kobi
 
-* Configuration
+・メールアドレス：
 
-* Database creation
+・パススワード：
 
-* Database initialization
+# 利用方法
 
-* How to run the test suite
+**商品出品**
 
-* Services (job queues, cache servers, search engines, etc.)
+* トップページのヘッダーから新規ユーザー登録をする
+* 画像、説明文、カテゴリー、金額、発送元地域、発送までの目安、発送方法は必須項目として入力する
+* 購入ボタンから購入できる
 
-* Deployment instructions
+# アプリケーションを作成した背景
+ハンドメイドで物を作るのが好きなので将来的に自分の作品を販売してみたいと思った。
 
-* ...
+# 洗い出した要件
+https://docs.google.com/spreadsheets/d/1AkXxRhFXHjQrWW712vLFQrb4BbHHujY8wChh3NNztC8/edit#gid=813409492
+
+# 実装予定の機能
+
+# データベース設計
+
+# 画面遷移図
+
+# 開発環境
+
+# 工夫したポイント
+

@@ -12,9 +12,9 @@ https://okiniiri-38385.herokuapp.com/
 
 ・Basic認証ID：kobi
 
-・メールアドレス：
+・メールアドレス：kkk@yahoo
 
-・パススワード：
+・パススワード：111kkk
 
 # 利用方法
 
@@ -36,10 +36,17 @@ https://docs.google.com/spreadsheets/d/1AkXxRhFXHjQrWW712vLFQrb4BbHHujY8wChh3NNz
 [![Image from Gyazo](https://i.gyazo.com/4827a1bba8a8baf75eeb322572972410.png)](https://gyazo.com/4827a1bba8a8baf75eeb322572972410)
 
 # 画面遷移図
-
+[![Image from Gyazo](https://i.gyazo.com/7ddeb7875a6fb67a9f106f76b72c9293.png)](https://gyazo.com/7ddeb7875a6fb67a9f106f76b72c9293)
 # 開発環境
-
+フロントエンド：HTML ,CSS ,JavaScript  
+バックエンド：Ruby on Rails  
+テスト： RSpec  
+インフラ：AWS  
+エディタ：VScode  
+タスク管理：GitHub
 # 工夫したポイント
+ユーザー視点でわかりやすいと思えるアプリにしたいと思いました。  
+具体的には、なるべく画面遷移を少なくしてワンクリックで操作が進む様にしました。  
 
 
 # テーブル設計

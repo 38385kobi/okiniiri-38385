@@ -1,6 +1,6 @@
-class CreateCategoryIds < ActiveRecord::Migration[6.0]
+class CreateCategorys < ActiveRecord::Migration[6.0]
   def change
-    create_table :category_ids do |t|
+    create_table :categorys do |t|
 
       t.timestamps
     end

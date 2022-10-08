@@ -1,6 +1,6 @@
-class CreateDeliveryDateIds < ActiveRecord::Migration[6.0]
+class CreateDeliveryDates < ActiveRecord::Migration[6.0]
   def change
-    create_table :delivery_date_ids do |t|
+    create_table :delivery_dates do |t|
 
       t.timestamps
     end

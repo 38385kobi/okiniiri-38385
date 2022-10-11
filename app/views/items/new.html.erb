@@ -15,12 +15,14 @@
         商品画像
         <span class="indispensable">必須</span>
       </div>
-      <div id="previews"></div>
-      <div class="click-upload">
-        <p>
-          クリックしてファイルをアップロード
-        </p>
-        <%= f.file_field :image, id:"item-image" %>
+      <div class="image-field">
+        <div id="previews"></div>
+        <div class="click-upload">
+          <p>
+            クリックしてファイルをアップロード
+          </p>
+          <%= f.file_field :images, name: 'item[images][]', data: {index: 0}, id:"item-image" %>
+        </div>
       </div>
     </div>
     <%# /商品画像 %>

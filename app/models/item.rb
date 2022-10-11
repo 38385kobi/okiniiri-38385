@@ -16,6 +16,7 @@ class Item < ApplicationRecord
     validates :prefecture_id, numericality: { other_than: 0, message: "を選択してください"}
     validates :delivery_date_id, numericality: { other_than: 0, message: "を選択してください"}
     validates :price, format: { with: /\A[0-9]+\z/,allow_blank: true}, numericality: {only_integer: true, greater_than_or_equal_to: 300, less_than_or_equal_to: 9999999,allow_blank: true}
-    validates :images
+    validates :images, allow_blank: true
   end
+  validates :images, length: { minimum: 1, maximum: 5, message: "は1枚以上5枚以下にしてください" }
 end

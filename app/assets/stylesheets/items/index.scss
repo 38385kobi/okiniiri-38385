@@ -21,6 +21,7 @@ a {
   padding: 5vh 15vw;
   color: #fff;
   text-shadow: 0 0 5px rgba(0, 0, 0, 0.9);
+  font-family: 'M PLUS Rounded 1c', sans-serif;
 }
 
 .service-title {
@@ -55,6 +56,7 @@ a {
   line-height: 1.4;
   font-weight: bold;
   color: #402717;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
 }
 
 .item-contents>.subtitle {
@@ -63,6 +65,7 @@ a {
   text-decoration: none;
   color: #402717;
   font-weight: bold;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
 }
 
 .item-lists {
@@ -95,6 +98,7 @@ a {
   text-align: center;
   background-color: crimson;
   transform: skewY(-10deg);
+  font-family: 'M PLUS Rounded 1c', sans-serif;
 }
 
 .sold-out>span {
@@ -106,8 +110,9 @@ a {
 
 .item-info {
   background-color: #FFF;
-  color: black;
+  color: #402717;
   padding: 1vw;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
 }
 
 .item-name {

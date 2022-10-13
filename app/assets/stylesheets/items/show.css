@@ -53,12 +53,17 @@
 
 .item-red-btn {
   text-align: center;
-  background-color: #ea352d;
   font-size: 24px;
   font-weight: bold;
-  color: #FFF;
-  margin: 20px 0px;
-  padding: 2vh 10vw;
+  display: inline-block;
+  width: 230px;
+  height: 50px;
+  background: #c1ebf2;
+  border-radius: 3px;
+  line-height: 50px;
+  -webkit-box-shadow: 0px 0px 0px 5px #c1ebf2;
+          box-shadow: 0px 0px 0px 5px #c1ebf2;
+  border: dashed 2px #FFF;
 }
 
 .or-text {
@@ -72,6 +77,11 @@
   color: black;
   margin: 20px 0px;
   padding: 2vh 10vw;
+  border: dashed 2px #FFF;
+  line-height: 30px;
+  -webkit-box-shadow: 0px 0px 0px 5px lightgray;
+          box-shadow: 0px 0px 0px 5px lightgray;
+  border-radius: 3px;
 }
 
 .item-explain-box {

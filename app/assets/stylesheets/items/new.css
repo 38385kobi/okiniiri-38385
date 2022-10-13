@@ -189,6 +189,11 @@
   height: 50px;
   font-size: 14px;
   margin-bottom: 4vh;
+  border: dashed 2px #FFF;
+  line-height: 30px;
+  -webkit-box-shadow: 0px 0px 0px 5px #ea352d;
+          box-shadow: 0px 0px 0px 5px #ea352d;
+  border-radius: 3px;
 }
 
 .back-btn {
@@ -197,6 +202,11 @@
   color: #fff;
   padding: 15px 35%;
   text-decoration: none;
+  border: dashed 2px #FFF;
+  line-height: 30px;
+  -webkit-box-shadow: 0px 0px 0px 5px #aaa;
+          box-shadow: 0px 0px 0px 5px #aaa;
+  border-radius: 3px;
 }
 
 /* /下部ボタン */

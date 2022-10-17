@@ -68,6 +68,7 @@ https://docs.google.com/spreadsheets/d/1AkXxRhFXHjQrWW712vLFQrb4BbHHujY8wChh3NNz
 
 - has_many : items
 - has_many : orders
+- has_many :comments
 
 ## items テーブル
 
@@ -86,6 +87,7 @@ https://docs.google.com/spreadsheets/d/1AkXxRhFXHjQrWW712vLFQrb4BbHHujY8wChh3NNz
 
 - belongs_to :user
 - has_one : order
+- has_many :comments
 - belongs_to_active_hash : category
 - belongs_to_active_hash : shipping_fee
 - belongs_to_active_hash : prefecture
@@ -140,3 +142,17 @@ https://docs.google.com/spreadsheets/d/1AkXxRhFXHjQrWW712vLFQrb4BbHHujY8wChh3NNz
 
 ### delivery_date (active_hash)
 - has_many : items
+
+
+## comment テーブル
+
+| Column        | Type       | Options                        |
+| ------------- | ---------- | ------------------------------ |
+| item          | integer    | null: false                    |
+| user          | integer    | null: false                    |
+| text          | text       | null: false                    |
+
+## Association
+
+- belongs_to :user
+- belongs_to :item

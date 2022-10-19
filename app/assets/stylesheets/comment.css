@@ -4,6 +4,7 @@
   background-color: #fff;
   margin: 5vh 0;
   text-align: center;
+  color: #402717;
 }
 
 .comment-text {
@@ -31,11 +32,25 @@
   font-size: 18px;
   border-radius: 100px;
   margin-bottom: 2vh;
+
 }
 
+.comment-btn_2 {
+  line-height: 44px;
+  background-color: #fabea7;
+  border: 1px solid #fabea7;
+  color: #fff;
+  width: 50%;
+  min-width: 150px;
+  font-size: 18px;
+  border-radius: 100px;
+  margin-bottom: 2vh;
+  text-align: center;
+}
 
 .comment{
   display: flex;
+  color: #402717;
 }
 
 .comment p{
